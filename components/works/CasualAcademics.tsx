@@ -1,6 +1,7 @@
-import { TiArrowForward } from "react-icons/ti";
 import { motion } from "framer-motion";
-const Google = () => {
+import { TiArrowForward } from "react-icons/ti";
+
+const CasualAcademics = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -9,40 +10,34 @@ const Google = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Web Developer
-        <span className="text-textGreen tracking-wide">@Google</span>
+      Academics Quantitative Backtesting
+        <span className="text-textGreen tracking-wide">@Casual Academics</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2022 - Dec 2023
+      May 2023 - July 2023
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-          distinctio doloribus quas ex ea sed.
+          Developing market-neutral, medium frequency alphas based on macroeconomic trends backed by academic research.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
-          sit adipisci ad exercitationem a amet cum porro recusandae eveniet,
-          accusantium animi tenetur rerum, culpa quibusdam! Consectetur
-          laboriosam hic harum modi.
+          Applying machine learning algorithms such as Regression, PCA, K-Means for building profitable strategies out of the signals. Establish parameters and develop system framework, including assessing and developing benchmark and rules-based execution strategies.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam et
-          corporis necessitatibus? Pariatur voluptas ad, at et hic deserunt
-          sequi?
+          Skills - Quantitative Finance, Financial Data, Data Science, Algorithmic Trading, Statistics, Futures Trading, Machine Learning, Quantitative Research, Python, C++.
         </li>
       </ul>
     </motion.div>
   );
 };
 
-export default Google;
+export default CasualAcademics;

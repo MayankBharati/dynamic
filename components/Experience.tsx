@@ -1,55 +1,55 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
 import Amazon from "./works/Amazon";
-import Apple from "./works/Apple";
-import Google from "./works/Google";
-import ReactBD from "./works/ReactBD";
-import Splash from "./works/Splash";
+import RakutenIndia from "./works/RakutenIndia";
+import Academic from "./works/Academic";
+import CasualAcademics from "./works/CasualAcademics";
+import IIIC from "./works/IIIC";
 
 const Experience = () => {
-  const [workReactbd, setWorkReactbd] = useState(true);
-  const [workGoogle, setWorkGoogle] = useState(false);
-  const [workApple, setWorkApple] = useState(false);
-  const [workSplash, setWorkSplash] = useState(false);
+  const [workCasualAcademics, setWorkCasualAcademics] = useState(true);
+  const [workAcademic, setWorkAcademic] = useState(false);
+  const [workRakutenIndia, setWorkRakutenIndia] = useState(false);
+  const [workIIIC, setWorkIIIC] = useState(false);
   const [workAmazon, setWorkAmazon] = useState(false);
 
-  const handleReactbd = () => {
-    setWorkReactbd(true);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(false);
+  const handleCasualAcademics = () => {
+    setWorkCasualAcademics(true);
+    setWorkAcademic(false);
+    setWorkRakutenIndia(false);
+    setWorkIIIC(false);
     setWorkAmazon(false);
   };
 
-  const handleGoogle = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(true);
-    setWorkApple(false);
-    setWorkSplash(false);
+  const handleAcademic = () => {
+    setWorkCasualAcademics(false);
+    setWorkAcademic(true);
+    setWorkRakutenIndia(false);
+    setWorkIIIC(false);
     setWorkAmazon(false);
   };
 
-  const handleApple = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(true);
-    setWorkSplash(false);
+  const handleRakutenIndia = () => {
+    setWorkCasualAcademics(false);
+    setWorkAcademic(false);
+    setWorkRakutenIndia(true);
+    setWorkIIIC(false);
     setWorkAmazon(false);
   };
-  const handleSplash = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(true);
+  const handleIIIC = () => {
+    setWorkCasualAcademics(false);
+    setWorkAcademic(false);
+    setWorkRakutenIndia(false);
+    setWorkIIIC(true);
     setWorkAmazon(false);
   };
-  const handleAmazon = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(true);
-  };
+  // const handleAmazon = () => {
+  //   setWorkCasualAcademics(false);
+  //   setWorkAcademic(false);
+  //   setWorkRakutenIndia(false);
+  //   setWorkIIIC(false);
+  //   setWorkAmazon(true);
+  // };
   return (
     <section
       id="experience"
@@ -59,46 +59,46 @@ const Experience = () => {
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           <li
-            onClick={handleReactbd}
+            onClick={handleCasualAcademics}
             className={`${
-              workReactbd
+              workCasualAcademics
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            RactBD
+            Casual Academics
           </li>
           <li
-            onClick={handleGoogle}
+            onClick={handleAcademic}
             className={`${
-              workGoogle
+              workAcademic
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Google
+            Academic
           </li>
           <li
-            onClick={handleApple}
+            onClick={handleRakutenIndia}
             className={`${
-              workApple
+              workRakutenIndia
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Apple
+            Rakuten India
           </li>
           <li
-            onClick={handleSplash}
+            onClick={handleIIIC}
             className={`${
-              workSplash
+              workIIIC
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Splash
+            IIIC Incubation Center
           </li>
-          <li
+          {/* <li
             onClick={handleAmazon}
             className={`${
               workAmazon
@@ -107,13 +107,13 @@ const Experience = () => {
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Amazon
-          </li>
+          </li> */}
         </ul>
-        {workReactbd && <ReactBD />}
-        {workGoogle && <Google />}
-        {workApple && <Apple />}
-        {workSplash && <Splash />}
-        {workAmazon && <Amazon />}
+        {workCasualAcademics && <CasualAcademics />}
+        {workAcademic && <Academic />}
+        {workRakutenIndia && <RakutenIndia />}
+        {workIIIC && <IIIC />}
+        {/* {workAmazon && <Amazon />} */}
       </div>
     </section>
   );

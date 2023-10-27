@@ -1,4 +1,4 @@
-import { amazonImg, cyberImg, noorShop } from "@/public/assets";
+import { ChestFL, Drona, QuantTrading } from "@/public/assets";
 import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
@@ -14,14 +14,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://nextamazon.reactbd.com/"
+            href="https://github.com/MayankBharati/Chest-Xray-Federated-Learning-"
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={amazonImg}
-                alt="amazonImg"
+                src={ChestFL}
+                alt="ChestFL"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -31,39 +31,36 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Chest X-ray Federated Learning</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+            The Chest X-ray Federated Learning project is a Python-based implementation of federated learning techniques applied to chest X-ray images. It aims to enable collaborative learning across multiple healthcare institutions while preserving data privacy. 
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
-              <li>Vercel Deployment</li>
+              <li>Python</li>
+              <li>Jupyter Notebook</li>
+              <li>Pytorch</li>
+              {/* <li>Str</li> */}
+              {/* <li>Vercel Deployment</li> */}
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/MayankBharati/Chest-Xray-Federated-Learning-"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
-              <a
+              {/* <a
                 className="hover:text-textGreen duration-300"
                 href="https://youtu.be/WzMtRfzkP-Q"
                 target="_blank"
               >
                 <AiOutlineYoutube />
-              </a>
+              </a> */}
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://nextamazon.reactbd.com/"
+                href="https://github.com/MayankBharati/Chest-Xray-Federated-Learning-"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -82,8 +79,8 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={cyberImg}
-                alt="cyberImg"
+                src={QuantTrading}
+                alt="QuantTrading"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -93,41 +90,36 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Cyber Security Blog</h3>
+              <h3 className="text-2xl font-bold">Quant Trading</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-              A full functional Cyber Security Blog where you can view the
-              latest post and{" "}
-              <span className="text-textGreen">comments on</span> it by passing
-              your ideas besides you can try to add your own{" "}
-              <span className="text-textGreen">post</span> on it by logging on
-              the portal.
+            This project focusing on a quantitative trading strategy utilizing the "Golden Cross" and "Death Cross" principles with Exponential Moving Averages (EMA). This strategy, gaining prominence in recent years, is used by traders to target substantial returns. The project implements and assesses the strategy, comparing its performance to a traditional buy-and-hold approach in the equity, forex, and cryptocurrency markets.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Sanity</li>
-              <li>React Hook Form</li>
+              <li>Jupyter Notebook</li>
+              <li>Python</li>
+              <li>Supervised ML</li>
+              <li>Dynamic Time Wrapping</li>
+              {/* <li>React Hook Form</li> */}
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/MayankBharati/Quant-Trading-Project"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
-              <a
+              {/* <a
                 className="hover:text-textGreen duration-300"
                 href="https://youtu.be/49Fx963su1I"
                 target="_blank"
               >
                 <AiOutlineYoutube />
-              </a>
+              </a> */}
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://www.noormohmmad.com/"
+                href="https://github.com/MayankBharati/Quant-Trading-Project"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -140,14 +132,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://noorshop.netlify.app/"
+            href="https://drona-gamma.vercel.app/"
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={noorShop}
-                alt="noorShop"
+                src={Drona}
+                alt="Drona"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -157,39 +149,45 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Drona</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+            We Build "Drona," addressing coding challenges in developing countries. <p>Drona has three parts: <br/>
+
+1. Code Grabber: Snap and upload handwritten code to run it in a compiler. <br/>
+
+2. Question Bank: Crowdsourced questions for practice, reducing teacher workload. <br/>
+
+3. Opportunity Notifications: Stay updated on internships, scholarships, and more. <br/>
+
+Drona simplifies coding education for all.</p>
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
+              <li>Android-Native</li>
+              <li>Java</li>
+              <li>MVVM</li>
+              <li>Retrofit</li>
+              <li>Jetpack</li>
               <li>Vercel Deployment</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/MayankBharati/Drona"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
-              <a
+              {/* <a
                 className="hover:text-textGreen duration-300"
                 href="https://youtu.be/fi0nQc25xAw"
                 target="_blank"
               >
                 <AiOutlineYoutube />
-              </a>
+              </a> */}
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://noorshop.netlify.app/"
+                href="https://drona-gamma.vercel.app/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />

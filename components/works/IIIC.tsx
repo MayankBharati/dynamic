@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
 import { TiArrowForward } from "react-icons/ti";
+import { motion } from "framer-motion";
 
-const ReactBD = () => {
+const IIIC = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -10,38 +10,34 @@ const ReactBD = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Engineer
-        <span className="text-textGreen tracking-wide">@ReactBD</span>
+        Incubate Startups
+        <span className="text-textGreen tracking-wide">@Splash</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2023 - present
+        July 2021 - Dec 2021
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Write modern, performant, maintainable code for a diverse array of
-          client and internal projects
+          We are a unique collaboration and education space designed to foster innovation and entrepreneurship across the country. 
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Work with a variety of different languages, platforms, frameworks, and
-          content management systems such as JavaScript, TypeScript, Gatsby,
-          React, Craft, WordPress, Prismic, and Netlify
+          We are committed to growing a collaborative entrepreneurial network by providing a one-stop support system for start-ups and transforming ourselves as a hub for innovation. 
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Communicate with multi-disciplinary teams of engineers, designers,
-          producers, and clients on a daily basis
+          We support and nurture startup companies by providing services such as incubation, mentoring, networking opportunities, seed funding, office spaces and rapid prototyping.
         </li>
       </ul>
     </motion.div>
   );
 };
 
-export default ReactBD;
+export default IIIC;

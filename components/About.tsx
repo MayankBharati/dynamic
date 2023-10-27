@@ -1,7 +1,7 @@
 import { profileImg } from "@/public/assets";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
-import { AiFillThunderbolt } from "react-icons/ai";
+import { AiFillBehanceCircle, AiFillCaretRight, AiFillCarryOut, AiFillChrome, AiFillCiCircle, AiFillFileMarkdown, AiFillThunderbolt, AiFillTrademarkCircle } from "react-icons/ai";
 
 const About = () => {
   return (
@@ -28,73 +28,73 @@ const About = () => {
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <AiFillCaretRight />
               </span>
               JavaScript (ES6+)
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <AiFillCaretRight />
               </span>
               C++/C
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <AiFillCaretRight />
               </span>
               Spring MVC & Maven
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <AiFillCaretRight />
               </span>
               Kafka & Couchbase
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <AiFillCaretRight />
               </span>
               Quantitative finance
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <AiFillCaretRight />
               </span>
               Python
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <AiFillCaretRight />
               </span>
               Jupyter Notebook
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <AiFillCaretRight />
               </span>
               React
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <AiFillCaretRight />
               </span>
               Node.js
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <AiFillCaretRight />
               </span>
               TypeScript
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <AiFillCaretRight />
               </span>
               MongoDB
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <AiFillCaretRight />
               </span>
               Tailwindcss
             </li>

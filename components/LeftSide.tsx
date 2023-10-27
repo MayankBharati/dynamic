@@ -5,38 +5,44 @@ import {
   SlSocialFacebook,
   SlSocialInstagram,
 } from "react-icons/sl";
+import { FaCodepen, FaTwitter } from "react-icons/fa";
 
 const LeftSide = () => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-end gap-4 text-textLight">
       <div className="flex flex-col gap-4">
-        <a href="https://github.com/noorjsdivs" target="_blank">
+        <a href="https://github.com/MayankBharati" target="_blank">
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <TbBrandGithub />
           </span>
         </a>
-        <a
+        {/* <a
           href="https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"
           target="_blank"
         >
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <SlSocialYoutube />
           </span>
-        </a>
+        </a> */}
         <a
-          href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+          href="https://www.linkedin.com/in/mayank-bharati-800b231b7/"
           target="_blank"
         >
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <SlSocialLinkedin />
           </span>
         </a>
-        <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+        <a href="https://codepen.io/mayankbharati" target="_blank">
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-            <SlSocialFacebook />
+            <FaCodepen/>
           </span>
         </a>
-        <a href="https://www.instagram.com/simplenoor143/" target="_blank">
+        <a href="https://twitter.com/bharatim1221" target="_blank">
+          <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+            <FaTwitter/>
+          </span>
+        </a>
+        <a href="https://www.instagram.com/mayank_bharati/" target="_blank">
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <SlSocialInstagram />
           </span>
