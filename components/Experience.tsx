@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
-import Amazon from "./works/Amazon";
+// import Amazon from "./works/Amazon";
 import RakutenIndia from "./works/RakutenIndia";
 import Academic from "./works/Academic";
 import CasualAcademics from "./works/CasualAcademics";

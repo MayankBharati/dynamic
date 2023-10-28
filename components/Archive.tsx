@@ -17,49 +17,43 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="Educare Engligh Learning Academy"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.educareenglishlearningacademy.com/"
+          title="Freemium Music"
+          des=" Android app that allows user to download Music directly into their local storage from huge collection of online Music Platforms."
+          listItem={["Android-Native", "MVVM", "Kotlin", "Retrofit", "Room", "Jetpack"]}
+          link="https://play.google.com/store/apps/details?id=nitish.build.com.freemium"
         />
         <ArchiveCard
-          title="Cyber Security Blog with live comments section"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.noormohmmad.com/"
+          title="Multiserver"
+          des=" AndroidWebServer, an exceptional sample project that equips your Android application with a seamless Web Server using the NanoHTTPD library."
+          listItem={["Java"]}
+          link="https://github.com/MayankBharati/MultiServer"
         />
         <ArchiveCard
-          title="ReactBD web development company"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://reactbd.com/"
+          title="Goldman Sachs"
+          des="Software Engineering Virtual Experience Program Certificate of Completion on August 5th, 2023. Over the period of November 2022 to August 2023, Mayank Bharati has completed practical tasks in: Crack leaked password database"
+          listItem={["C++", "Java"]}
+          link="https://www.linkedin.com/in/mayank-bharati-800b231b7/details/featured/"
         />
         <ArchiveCard
-          title="Amazon Clone with login, cart-option and payment intrigation."
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://amazonclone.reactbd.com/"
+          title="Cognizant"
+          des=" Artificial Intelligence Virtual Experience. Over the period of August 2023, Mayank Bharati has completed practical tasks in: Exploratory Data Analysis, Data Modeling, Model, Building and Interpretation, Machine Learning Production, Quality Assurance "
+          listItem={["Machine Learning", "Python", "Jupyter Notebook"]}
+          link="https://www.linkedin.com/in/mayank-bharati-800b231b7/details/featured/"
         />
         <ArchiveCard
           title="JSON data (example data api for test projects)"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              laudantium velit qui sint non, voluptates quo a veritatis."
+          des=" JSONData is a free and easy-to-use REST API website that provides developers with demo data in JSON format. With JSONData, you can quickly obtain sample data for testing, prototyping, and even production use cases."
           listItem={["Nextjs", "Tailwind CSS", "next-router"]}
           link="https://jsondata.reactbd.com/"
         />
         <ArchiveCard
-          title="Dynamic Responsive Portfolio"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://portfolioone.reactbd.com/"
+          title="Blogs on Qunat Finance, Software Dev, and Consulting"
+          des=" Worte Various Blogs from Quant Finance to Consulting on medium."
+          listItem={["Quant Finance", "Software Dev.", "Consulting"]}
+          link="https://medium.com/@bharatim1221"
         />
 
-        {showMore && (
+        {/* {showMore && (
           <>
             <motion.div
               initial={{ opacity: 0 }}
@@ -179,7 +173,7 @@ const Archive = () => {
               />
             </motion.div>
           </>
-        )}
+        )} */}
       </div>
       <div className="mt-12 flex items-center justify-center">
         {showMore ? (

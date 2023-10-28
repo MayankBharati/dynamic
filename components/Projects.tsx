@@ -152,15 +152,11 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Drona</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-            We Build "Drona," addressing coding challenges in developing countries. <p>Drona has three parts: <br/>
-
-1. Code Grabber: Snap and upload handwritten code to run it in a compiler. <br/>
-
-2. Question Bank: Crowdsourced questions for practice, reducing teacher workload. <br/>
-
-3. Opportunity Notifications: Stay updated on internships, scholarships, and more. <br/>
-
-Drona simplifies coding education for all.</p>
+            We Build "Drona," addressing coding challenges in developing countries. Drona has three parts: <br/>
+            1. Code Grabber: Snap and upload handwritten code to run it in a compiler. <br/>
+            2. Question Bank: Crowdsourced questions for practice, reducing teacher workload. <br/>
+            3. Opportunity Notifications: Stay updated on internships, scholarships, and more. <br/>
+            Drona simplifies coding education for all.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Android-Native</li>
