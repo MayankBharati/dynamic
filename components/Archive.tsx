@@ -47,7 +47,7 @@ const Archive = () => {
           link="https://jsondata.reactbd.com/"
         />
         <ArchiveCard
-          title="Blogs on Qunat Finance, Software Dev, and Consulting"
+          title="Blogs on Quant Finance, Software Dev, and Consulting"
           des=" Worte Various Blogs from Quant Finance to Consulting on medium."
           listItem={["Quant Finance", "Software Dev.", "Consulting"]}
           link="https://medium.com/@bharatim1221"
