@@ -19,7 +19,7 @@ const About = () => {
           </span></a> where I completed my Bachelors in Electronics and Coomunications Engineering (2020-2024) with <span className="text-textGreen">8.33 CGPA</span>.
           </p>
           <p>
-          I'm a passionate creator who loves to use my coding skills to make a positive impact. When I'm not immersed in the world of technology, I enjoy embarking on culinary adventures, tinkering with electronics, and occasionally indulging in underrated TV series.
+          I&apos;m a passionate creator who loves to use my coding skills to make a positive impact. When I&apos;m not immersed in the world of technology, I enjoy embarking on culinary adventures, tinkering with electronics, and occasionally indulging in underrated TV series.
           </p>
           <p>
           My commitment to open source projects is unwavering, and I take pleasure in both building and contributing to these initiatives. Teaching and assisting others is a source of joy for me.

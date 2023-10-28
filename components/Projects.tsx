@@ -73,7 +73,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://www.noormohmmad.com/"
+            href="https://github.com/MayankBharati/Quant-Trading-Project"
             target="_blank"
           >
             <div>
@@ -93,7 +93,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Quant Trading</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-            This project focusing on a quantitative trading strategy utilizing the "Golden Cross" and "Death Cross" principles with Exponential Moving Averages (EMA). This strategy, gaining prominence in recent years, is used by traders to target substantial returns. The project implements and assesses the strategy, comparing its performance to a traditional buy-and-hold approach in the equity, forex, and cryptocurrency markets.
+            This project focusing on a quantitative trading strategy utilizing the &quot;Golden Cross&quot; and &quot;Death Cross&quot; principles with Exponential Moving Averages (EMA). This strategy, gaining prominence in recent years, is used by traders to target substantial returns. The project implements and assesses the strategy, comparing its performance to a traditional buy-and-hold approach in the equity, forex, and cryptocurrency markets.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Jupyter Notebook</li>
@@ -152,7 +152,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Drona</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-            We Build "Drona," addressing coding challenges in developing countries. Drona has three parts: <br/>
+            We Build &quot;Drona&quot;, addressing coding challenges in developing countries. Drona has three parts: <br/>
             1. Code Grabber: Snap and upload handwritten code to run it in a compiler. <br/>
             2. Question Bank: Crowdsourced questions for practice, reducing teacher workload. <br/>
             3. Opportunity Notifications: Stay updated on internships, scholarships, and more. <br/>

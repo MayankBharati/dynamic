@@ -30,8 +30,8 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I'm an India based software developer with a goal-driven creative mindset and passion for learning and innovating.<br/>
-        I'm an electronics and communication engineering student at Indian Institute of Information Technology, Allahabad, India specializing in developing exceptional, High quality Machine Learning models, Quantitative finance models and Web Applications and tools.
+        I&apos;m an India based software developer with a goal-driven creative mindset and passion for learning and innovating.<br/>
+        I&apos;m an electronics and communication engineering student at Indian Institute of Information Technology, Allahabad, India specializing in developing exceptional, High quality Machine Learning models, Quantitative finance models and Web Applications and tools.
 Outside work, I occasionally blog on {" "}
         <a href="https://medium.com/@bharatim1221" target="_blank">
           {" "}
